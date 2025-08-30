@@ -1,0 +1,12 @@
+{
+  "name": "@kaeser/ui",
+  "version": "0.0.0",
+  "description": "tailwind ui library",
+  "repository": {
+    "url": "https://github.com/KMJENK17/kaeser-ui"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "author": "Kai Jenkins",
+  "license": "MIT"
+}
