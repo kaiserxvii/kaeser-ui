@@ -1,9 +1,14 @@
 {
   "$schema": "https://unpkg.com/release-it@19/schema/release-it.json",
   "git": {
-    "commitMessage": "chore: release v${version}"
+    "commitMessage": "chore: release v${version}",
+    "requireCleanWorkingDir": false
   },
   "github": {
-    "release": true
+    "release": true,
+    "releaseNotes": "./changelog.sh stdout"
+  },
+  "hooks": {
+    "after:bump": "./changelog.sh"
   }
 }
