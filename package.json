@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "release:ui": "dotenv -e .env -- npx --prefix packages/ui release-it"
+    "release:ui": "dotenv -e .env -- sh -c 'cd packages/ui && npx release-it'"
   },
   "private": true,
   "devDependencies": {
