@@ -4,7 +4,6 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "@eslint/js": "^9.8.0",
     "@nx/eslint": "21.4.1",
@@ -13,6 +12,7 @@
     "@nx/js": "21.4.1",
     "@nx/vite": "21.4.1",
     "@nx/web": "21.4.1",
+    "@release-it/bumper": "^7.0.5",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
@@ -28,6 +28,7 @@
     "jsonc-eslint-parser": "^2.1.0",
     "nx": "21.4.1",
     "prettier": "^2.6.2",
+    "release-it": "^19.0.4",
     "ts-jest": "^29.4.0",
     "tslib": "^2.3.0",
     "typescript": "~5.8.2",
