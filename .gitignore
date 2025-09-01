@@ -49,3 +49,5 @@ test-output
 
 .npmrc
 .env
+
+storybook-static
